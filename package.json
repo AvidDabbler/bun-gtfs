@@ -1,0 +1,20 @@
+{
+  "name": "gtfs-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "gtfs": "bun gtfs/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun": "^1.1.20"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "gtfs": "^4.13.1",
+    "gtfs-to-geojson": "^3.7.4",
+    "gtfs-to-html": "^2.6.10"
+  }
+}
